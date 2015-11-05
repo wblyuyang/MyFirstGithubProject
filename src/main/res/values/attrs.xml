@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="CustomTitleView">
+        <attr name="my_text" format="string" />
+        <attr name="my_text_color" format="color" />
+        <attr name="my_text_size" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomImageView" >
+        <attr name="civTitleText" format="string" />
+        <attr name="civTitleTextSize" format="dimension"/>
+        <attr name="civTitleTextColor" format="color"/>
+        <attr name="civImage" format="reference"/>
+        <attr name="civImageScaleType" >
+            <enum name="fillXY" value="0"/>
+            <enum name="center" value="1"/>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomProgressBar">
+        <attr name="firstColor" format="color"/>
+        <attr name="secondColor" format="color"/>
+        <attr name="circleWidth" format="dimension"/>
+        <attr name="speed" format="integer"/>
+    </declare-styleable>
+
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
